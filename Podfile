@@ -12,5 +12,6 @@ target 'Expense Manager' do
   pod 'SwiftyJSON'
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'Firebase/Core'
 
 end

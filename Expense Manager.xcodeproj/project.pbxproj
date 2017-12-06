@@ -12,6 +12,14 @@
 		40DF8CA01FD31F6C00234F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DF8C9F1FD31F6C00234F72 /* Assets.xcassets */; };
 		40DF8CA31FD31F6C00234F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DF8CA11FD31F6C00234F72 /* LaunchScreen.storyboard */; };
 		40DF8CAE1FD460A200234F72 /* MonthsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF8CAD1FD460A200234F72 /* MonthsViewModel.swift */; };
+		40DF8CB21FD4636100234F72 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF8CB11FD4636100234F72 /* Date.swift */; };
+		40DF8CB41FD4690200234F72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40DF8CB31FD4690200234F72 /* GoogleService-Info.plist */; };
+		40DF8CB61FD46ED900234F72 /* Months.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF8CB51FD46ED900234F72 /* Months.swift */; };
+		40DF8CB81FD4891A00234F72 /* MonthItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF8CB71FD4891A00234F72 /* MonthItemViewModel.swift */; };
+		40DF8CBB1FD48B3400234F72 /* MonthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF8CB91FD48B3400234F72 /* MonthTableViewCell.swift */; };
+		40DF8CBC1FD48B3400234F72 /* MonthTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40DF8CBA1FD48B3400234F72 /* MonthTableViewCell.xib */; };
+		40DF8CBF1FD48CF000234F72 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF8CBE1FD48CF000234F72 /* R.generated.swift */; };
+		40DF8CC11FD48F6800234F72 /* MonthsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF8CC01FD48F6800234F72 /* MonthsViewController.swift */; };
 		B97C335FEA05FBFB3FB3426D /* Pods_Expense_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61945DBC93F2925F222268F /* Pods_Expense_Manager.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +31,14 @@
 		40DF8CA21FD31F6C00234F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40DF8CA41FD31F6C00234F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40DF8CAD1FD460A200234F72 /* MonthsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthsViewModel.swift; sourceTree = "<group>"; };
+		40DF8CB11FD4636100234F72 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		40DF8CB31FD4690200234F72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40DF8CB51FD46ED900234F72 /* Months.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Months.swift; sourceTree = "<group>"; };
+		40DF8CB71FD4891A00234F72 /* MonthItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthItemViewModel.swift; sourceTree = "<group>"; };
+		40DF8CB91FD48B3400234F72 /* MonthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthTableViewCell.swift; sourceTree = "<group>"; };
+		40DF8CBA1FD48B3400234F72 /* MonthTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonthTableViewCell.xib; sourceTree = "<group>"; };
+		40DF8CBE1FD48CF000234F72 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		40DF8CC01FD48F6800234F72 /* MonthsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthsViewController.swift; sourceTree = "<group>"; };
 		45BEB827A4C2E2CAB4C463A1 /* Pods-Expense Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expense Manager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Expense Manager/Pods-Expense Manager.debug.xcconfig"; sourceTree = "<group>"; };
 		6D8E28523E55D0605CA8CC3F /* Pods-Expense Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expense Manager.release.xcconfig"; path = "Pods/Target Support Files/Pods-Expense Manager/Pods-Expense Manager.release.xcconfig"; sourceTree = "<group>"; };
 		D61945DBC93F2925F222268F /* Pods_Expense_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Expense_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +59,7 @@
 		40DF8C8C1FD31F6C00234F72 = {
 			isa = PBXGroup;
 			children = (
+				40DF8CBE1FD48CF000234F72 /* R.generated.swift */,
 				40DF8C971FD31F6C00234F72 /* Expense Manager */,
 				40DF8C961FD31F6C00234F72 /* Products */,
 				C2C048FB9626E22C75B86846 /* Pods */,
@@ -70,6 +87,7 @@
 				40DF8CB01FD4622E00234F72 /* Extensions */,
 				40DF8CAF1FD461BF00234F72 /* Utils */,
 				40DF8C9F1FD31F6C00234F72 /* Assets.xcassets */,
+				40DF8CB31FD4690200234F72 /* GoogleService-Info.plist */,
 				40DF8CA41FD31F6C00234F72 /* Info.plist */,
 			);
 			path = "Expense Manager";
@@ -78,6 +96,7 @@
 		40DF8CAA1FD44FBF00234F72 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				40DF8CB51FD46ED900234F72 /* Months.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -85,6 +104,9 @@
 		40DF8CAB1FD44FCD00234F72 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				40DF8CC01FD48F6800234F72 /* MonthsViewController.swift */,
+				40DF8CB91FD48B3400234F72 /* MonthTableViewCell.swift */,
+				40DF8CBA1FD48B3400234F72 /* MonthTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				40DF8CAD1FD460A200234F72 /* MonthsViewModel.swift */,
+				40DF8CB71FD4891A00234F72 /* MonthItemViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -107,6 +130,7 @@
 		40DF8CB01FD4622E00234F72 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				40DF8CB11FD4636100234F72 /* Date.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -136,6 +160,7 @@
 			buildConfigurationList = 40DF8CA71FD31F6C00234F72 /* Build configuration list for PBXNativeTarget "Expense Manager" */;
 			buildPhases = (
 				ECD46D9ED4D566C042E97F31 /* [CP] Check Pods Manifest.lock */,
+				40DF8CBD1FD48C8A00234F72 /* ShellScript */,
 				40DF8C911FD31F6C00234F72 /* Sources */,
 				40DF8C921FD31F6C00234F72 /* Frameworks */,
 				40DF8C931FD31F6C00234F72 /* Resources */,
@@ -191,6 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				40DF8CA31FD31F6C00234F72 /* LaunchScreen.storyboard in Resources */,
+				40DF8CB41FD4690200234F72 /* GoogleService-Info.plist in Resources */,
+				40DF8CBC1FD48B3400234F72 /* MonthTableViewCell.xib in Resources */,
 				40DF8CA01FD31F6C00234F72 /* Assets.xcassets in Resources */,
 				40DF8C9E1FD31F6C00234F72 /* Main.storyboard in Resources */,
 			);
@@ -213,6 +240,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Expense Manager/Pods-Expense Manager-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		40DF8CBD1FD48C8A00234F72 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
 		};
 		ECD46D9ED4D566C042E97F31 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -240,18 +280,22 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Expense Manager/Pods-Expense Manager-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -265,7 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40DF8CB61FD46ED900234F72 /* Months.swift in Sources */,
+				40DF8CBF1FD48CF000234F72 /* R.generated.swift in Sources */,
 				40DF8C991FD31F6C00234F72 /* AppDelegate.swift in Sources */,
+				40DF8CB21FD4636100234F72 /* Date.swift in Sources */,
+				40DF8CB81FD4891A00234F72 /* MonthItemViewModel.swift in Sources */,
+				40DF8CC11FD48F6800234F72 /* MonthsViewController.swift in Sources */,
+				40DF8CBB1FD48B3400234F72 /* MonthTableViewCell.swift in Sources */,
 				40DF8CAE1FD460A200234F72 /* MonthsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
